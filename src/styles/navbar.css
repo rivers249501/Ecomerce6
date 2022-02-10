@@ -1,0 +1,25 @@
+.container-header{
+    width: 87%;
+    text-decoration: none;
+    margin: 0% auto;
+    margin-top: -41px;
+    padding: 37px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+.container-link{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    font-family: cursive;
+}
+
+.container-btn{
+    text-decoration: none;
+    font-family: cursive;
+    color: rgb(194, 33, 33);
+    font-size: 22px;
+    margin-top: 1px;
+}
+

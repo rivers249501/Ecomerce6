@@ -1,0 +1,100 @@
+.container-cart{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.row .list{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;     
+}
+
+.list span{
+    padding: 20px;
+    margin-left: 20px;
+}
+.cart-name{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: cursive;
+}
+.list .list-card{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;    
+}
+
+.list-card .list-info{
+    display: flex;   
+    width: 100%;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.list-info .text{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-info a{
+    text-align: center;
+}
+.vaciar-carrito{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin: 0% auto;
+}
+.vaciar-carrito2{
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+
+
+@media (max-width: 1280px) {
+    .list span{
+        padding: 30px;
+        margin-left: 40px;
+    }
+}
+@media (max-width: 999px) {
+    .list span{
+        display: none;
+    }
+}
+@media (max-width: 375px ){
+    .conttainer-header{
+        margin-top: -35px;
+        width: 77px;
+        padding: 44px;
+    }
+    .list-card .list-info{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .container-header{
+        width: 78%;
+    text-decoration: none;
+    margin: -26% auto;
+    margin-top: -34px;
+    padding: 38px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+    }
+

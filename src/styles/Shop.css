@@ -1,0 +1,104 @@
+body{
+    background-color: #faf8f0;
+    text-decoration: none;
+}
+.shop-name{
+    font-size: 10vh;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    padding: 55px;
+}
+.container-shopcategory{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0%;
+    font-family: fantasy;
+
+
+}
+
+.container-shopform{
+    display: flex;
+    justify-content: space-around;
+    padding: 0rem;
+}
+
+.container-shopform input{
+    border: 2px solid black;
+    margin-top: 0%;
+    width: 30%;
+    height: 5vh;
+    border-radius: 2rem;
+    font-size: 30px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.list-product{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.list-product .card{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.form-container form input{
+    background:tomato;
+    border: 1px solid #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+
+}
+
+.form-container form button{
+    background: tomato;;
+    border: 1px solid #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.info-price{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+
+}
+
+.info-price p.product-name{
+    width: 70%;
+    margin-bottom: 1px;
+    text-decoration: none;
+    justify-content: start;
+}
+
+p.product-name{
+    text-align: left;
+    text-decoration: none;
+
+}
+
+p.product-name a{
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
+
